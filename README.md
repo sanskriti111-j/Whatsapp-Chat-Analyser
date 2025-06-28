@@ -46,3 +46,4 @@ Interactive display using Streamlit
 Live Demo:
 https://whatsapp-chat-analyser-qyelml4xqf4hbgzsih2ql8.streamlit.app/
 
+Demo video: https://drive.google.com/file/d/13kEJquIIXx6Io1BYVncZ9ZW2H_GUf73t/view?usp=sharing
