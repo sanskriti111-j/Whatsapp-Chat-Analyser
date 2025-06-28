@@ -7,21 +7,13 @@ The main goal of this project is to analyze WhatsApp chat history (exported .txt
 
 ##Key Features
 
-
 Upload .txt file exported from WhatsApp
-
 Visualize:
-
 Total messages, words, media shared
-
 Active members and message frequency
-
 Commonly used words (with WordCloud)
-
 Emoji usage
-
 Chat timeline and heatmaps
-
 Works for both group and individual chats
 
 ##Techniques Used
@@ -29,36 +21,25 @@ Works for both group and individual chats
 
 1. Data Cleaning & Preprocessing
 Parsed date, time, sender, and message from raw .txt files
-
 Removed system-generated messages like "<Media omitted>"
-
 Filtered empty or irrelevant lines
 
 2. Text Processing
 Tokenization of messages into words
-
 Removed stopwords (e.g., "is", "the", "to")
-
 Applied custom stopword filtering (e.g., removing "media", "omitted")
-
 Extracted emoji characters using emoji module
 
 3. Exploratory Data Analysis (EDA)
 Counted total messages, words, and media
-
 Calculated individual user contribution
-
 Extracted most common words using Counter
-
 Emoji frequency using Unicode-aware filtering
 
 4. Data Visualization
 Bar charts with matplotlib
-
 Word cloud with wordcloud
-
 Heatmaps for activity distribution (optional)
-
 Interactive display using Streamlit
 
 
